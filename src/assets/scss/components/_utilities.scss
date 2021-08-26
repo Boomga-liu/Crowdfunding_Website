@@ -1,0 +1,18 @@
+.rounded-32 {
+  border-radius: 32px;
+}
+
+.btn-warning:hover {
+  background-color: $danger;
+  border-color: $danger;
+  color: #fff !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: $warning;
+  border-color: $warning;
+}
+
+.fs-sm {
+  font-size: 14px;
+}

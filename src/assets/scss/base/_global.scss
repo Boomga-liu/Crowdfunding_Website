@@ -1,0 +1,19 @@
+$variable-prefix: bs-;
+$font-family-noto-sans-tc: 'Noto Sans TC', sans-serif !default;
+// stylelint-enable value-keyword-case
+$font-family-base: var(--#{$variable-prefix}font-noto-sans-tc) !default;
+
+:root {
+  // Use `inspect` for lists so that quoted items keep the quotes.
+  // See https://github.com/sass/sass/issues/2383#issuecomment-336349172
+  --#{$variable-prefix}font-noto-sans-tc: #{inspect($font-family-noto-sans-tc)};
+}
+
+body {
+  .ff-bt2 {
+    font-family: 'Baloo Tamma 2', cursive;
+  }
+  .ff-nsc {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+}

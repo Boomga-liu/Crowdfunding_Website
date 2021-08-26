@@ -1,0 +1,22 @@
+.icon-list.row > * {
+  width: auto;
+}
+
+.icon-list {
+  @include media-breakpoint-down(md) {
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    margin-right: 8px;
+  }
+
+  span {
+    color: #79766b;
+  }
+}

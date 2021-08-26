@@ -1,0 +1,11 @@
+@import './base/_global.scss';
+@import '~bootstrap/scss/functions';
+@import './helpers/variables';
+@import '~bootstrap/scss/bootstrap';
+
+@import './components/_utilities.scss';
+@import './layout/_navbar.scss';
+@import './layout/_projectselection.scss';
+@import './layout/_banner.scss';
+@import './layout/_content.scss';
+@import './layout/_footer.scss';

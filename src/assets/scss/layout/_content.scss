@@ -1,0 +1,42 @@
+.content-title {
+  z-index: 999;
+  .nav-link.active {
+    border-bottom: 2px solid $warning;
+    font-weight: bold;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@include phone {
+  .nav-link {
+    padding: 0.5rem 0.8rem;
+  }
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.accordion-body {
+  padding: 1rem 1rem 1rem 4.25rem;
+  @include media-breakpoint-down(md) {
+    padding: 1rem;
+  }
+}
+
+#progress {
+  .card {
+    border-radius: 0.45rem;
+  }
+}
+
+.content {
+  .card {
+    border-radius: 15px;
+  }
+}

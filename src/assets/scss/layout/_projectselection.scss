@@ -1,0 +1,17 @@
+.project-selection {
+  li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+.top-nav {
+  @include media-breakpoint-up(md) {
+    top: 85px;
+  }
+}
+.project-selection-h {
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 85px);
+  }
+}
